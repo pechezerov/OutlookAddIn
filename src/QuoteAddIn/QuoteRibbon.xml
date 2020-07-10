@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabNewMailMessage">
+        <group id="QuoteGroup" label="Работа с текстом">
+          <button label="Цитировать" id="btnQuote" onAction="QuoteCommandClick" 
+                  getImage="GetImage" size="large" 
+                  screentip="Цитировать выбранный фрагмент" 
+                  supertip="Заключает выделенный фрагмент текста в область цитирования и размещает в начале документа" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
